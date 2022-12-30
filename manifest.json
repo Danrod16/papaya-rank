@@ -1,0 +1,15 @@
+{
+    "name": "Papaya page ranking",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This extension will show you the page rank of the current page",
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
