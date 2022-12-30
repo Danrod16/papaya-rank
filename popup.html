@@ -4,10 +4,20 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Popup</h1>
-        <h2 id="result"></h2>
-        <button id="rank">Rank</button>
-        <button id="close">Close</button>
+        <h1>Domain Ranking</h1>
+        <div class="result">
+            <div id="loader" class="progress">
+                <div class="color"></div>
+            </div>
+            <div class="stats">
+                <h2 id="result"></h2>
+                <small id="global_ranking"></small>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="rank">Analyze domain</button>
+           <p class="source">Source: <a href="https://www.domcop.com/openpagerank/what-is-openpagerank">Open Rank</a></p>
+        </div>
         <script src="background.js"></script>
     </body>
 </html>
