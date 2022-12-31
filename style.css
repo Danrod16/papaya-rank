@@ -17,6 +17,7 @@ h1 {
 h2 {
     color: rgb(225, 128, 11);
     font-size: 2.5em;
+    margin: 5px;
 }
 
 .source {
@@ -60,12 +61,21 @@ button {
 }
 
 .progress{
+    position: relative;
     display: none;
     height: 10px;
     width: 150px;
     border: 10px solid #f4a261;
     border-radius: 15px;
+    margin-bottom: 10px;
+    margin-left: 2px;
 }
+
+.papaya {
+    width: 75px;
+    height: 75px;
+}
+
 .progress .color{
     position: absolute;
     background-color: #ffffff;
@@ -74,7 +84,7 @@ button {
     border-radius: 15px;
     animation: progres 2s 1 linear;    
 }
-@keyframes progres{
+@keyframes progres {
     0%{
       width: 0px;
     }
