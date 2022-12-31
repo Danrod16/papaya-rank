@@ -31,7 +31,9 @@ For every contribution, bug report or improvement please create an issue by foll
 ## Features - V2
 
 - Integrating a new feature for page analysis: [SEO extraction](https://rapidapi.com/Canssens/api/seo-extraction/pricing)
-- integrating Malware detection : [AlienVault](https://otx.alienvault.com/api)
+- Integrating Malware detection : [AlienVault](https://otx.alienvault.com/api)
+- Integrating Co2 emissions calculator: [Website Carbon](https://api.websitecarbon.com/) 
+
 ## Team
 
 [@danrod16 - Daniel Rodriguez](https://github.com/danrod16) - Full-stack developer
