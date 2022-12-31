@@ -1,4 +1,3 @@
-    console.log('clicked')
     const button = document.getElementById('rank')
     const ranking = document.getElementById('result')
     const loader = document.getElementById('loader')
