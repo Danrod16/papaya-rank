@@ -24,6 +24,14 @@ For every contribution, bug report or improvement please create an issue by foll
 🟡 To be fixed when possible
 🟢 Good to have
 
+## Features - V1
+
+- Page score and global ranking with [Open Rank](https://www.domcop.com/openpagerank/what-is-openpagerank)
+
+## Features - V2
+
+- Integrating a new feature for page analysis: [SEO extraction](https://rapidapi.com/Canssens/api/seo-extraction/pricing)
+- integrating Malware detection : [AlienVault](https://otx.alienvault.com/api)
 ## Team
 
 [@danrod16 - Daniel Rodriguez](https://github.com/danrod16) - Full-stack developer
