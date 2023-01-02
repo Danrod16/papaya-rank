@@ -1,8 +1,8 @@
 {
-    "name": "Papaya domain ranking - free",
+    "name": "Papaya ranking: domain rank analysis",
     "version": "1.0",
     "manifest_version": 3,
-    "description": "Free & minimalistic domain ranking extension",
+    "description": "Minimalistic domain scoring & ranking extension",
     "icons": {
         "16": "icons/icon16.png",
         "32": "icons/icon32.png",
