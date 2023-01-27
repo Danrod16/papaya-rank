@@ -5,6 +5,7 @@
     button.addEventListener('click', async () => {
         chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
             loader.style.display = 'block';
+            ranking.style.style = 'none'
             const activeTab = tabs[0];
             const domain = activeTab.url.match(/\/\/.*?(?=\/)/)[0].replace('//', '')
             fetch(`https://openpagerank.com/api/v1.0/getPageRank?domains%5B%5D=${domain}`, { method: 'GET', headers: { 'Content-Type': 'application/json', 'API-OPR': 'gkcsw8kws84wogoow4go0gwss0ckwkwsk8swwsk8' }
