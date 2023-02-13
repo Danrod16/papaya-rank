@@ -4,6 +4,8 @@
   <br>
   Papaya rank© 2022
   <br>
+  <a align="center" href="https://chrome.google.com/webstore/detail/papaya-ranking-domain-ran/gefkkjihmfkognpmaikcopppcjdjngpn" >Add to tour browser 💾</a> 
+
 </h1>
 
 <h4 align="center"> Chrome extension for analyzing page rankings</h4>
